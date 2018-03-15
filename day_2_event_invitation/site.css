@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+.font-1{
+    font-family: 'Indie Flower', cursive;
+}
+
+.font-2{
+    font-family: 'Dancing Script', cursive;
+}
+
+.font-3{
+    font-family: 'Sacramento', cursive;
+}
+
+
+
+.bg-1 {
+    background-color: #fbf7ad ;
+}
+
+.bg-2 {
+    background-color: #b5e5da ;
+}
+
+.bg-3 {
+    background-color: #8baac1 ;
+}
+
+.bg-4 {
+    background-color: #a894c1 ;
+}
+
+.bg-5 {
+    background-color: #e5b1e5 ;
+}
+
+.bg-6{
+    background-color: #800000 ;
+}
+.bg-7{
+    background-color: #341a00 ;
+}
+
+.bg-8{
+    background-color: #673300 ;
+}
+
+.bg-9{
+    background-color: #9a4d00 ;
+}
+
+.bg-10{
+    background-color: #e5d8cc ;
+}
+
+.bg-11{
+    background-color: #e5ceda ;
+}
+
+
+
+.border{
+    border: 1px solid black;
+}
+.main-color{
+    color: #b5e5da;
+    text-shadow: 2px 2px  black;
+}
+
+.black{
+    color:  black;
+}
+
+body, html {
+    height: 100%;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#invite{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/invite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#footer{
+    color:  white;
+    background-color: black;
+    padding: 25px;
+    
+}
+
+#rsvp_input{
+    margin: 25px 15px;
+}
+
+.text-md{
+    font-size: 20px ;
+}
+
+.text-lg{
+    font-size: 35px ;
+}
+
+.text-large{
+    font-size: 45px;
+}
+
+.text-xl{
+    font-size: 75px;
+}
+
+.text-huge{
+    font-size: 100px;
+}
+
+.margin-top{
+    margin-top: 50px;
+}
+.margin-bot{
+    margin-bottom: 50px;
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+
+.margin-right{
+    margin-right: 20px;
+}
+
+.padding-lr-correction{
+    padding: 0% 10%;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.padding-modal{
+    padding: 35px;
+}
+
+.button-custom-color{
+    color: #8baac1;
+    background-color: black;
+    border: 1px solid #8baac1;
+}
+
+.button-custom-color-1{
+    color: black;
+    background-color: #00cc00;
+    border: 1px solid black;
+}
+
+.button-custom-color-1:hover,
+.button-custom-color-1:active{
+    color: black;
+    background-color: #006600;
+    border: 1px solid black;
+}
+
+.button-custom-color-2{
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.button-custom-color-2:hover,
+.button-custom-color-2:active{
+    color: black;
+    background-color: #990000;
+    border: 1px solid black; 
+}
+
+.button-custom{
+    padding: 10px 35px;
+    font-size: 35px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.button-custom-color:hover,
+.button-custom-color:active{
+    color: black;
+    background-color: #8baac1;
+    border: 1px solid black;
+}
+
+.nav-bg:hover{
+    background-color: #8baac1 ;
+}
